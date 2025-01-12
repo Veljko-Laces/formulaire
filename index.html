@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de conatct</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="contact" id="contact">
+        <div class="contact-title-text">
+            <h2>Formulaire de contact</h2>
+        </div>
+        <div id="formulaire-envoye"></div>
+        <div class="formulaire-de-contact">
+            <div class="champ">
+                <div class="champ-label">
+                    <label for="Nom" class="text-base">Nom</label>
+                    <input type="text" placeholder="Entrez votre nom" id="nom">
+                    <div id="nom-erreur"></div>
+                </div>
+                <div class="champ-label">
+                    <label for="Prenom" class="text-base">Prénom</label>
+                    <input type="text" placeholder="Entrez votre prénom" id="prenom">
+                    <div id="prenom-erreur"></div>
+                </div>
+                <div class="champ-label">
+                    <label for="Email" class="text-base">Email</label>
+                    <input type="text" placeholder="Entrez votre email" id="email">
+                    <div id="email-erreur"></div>
+                </div>
+                <div class="champ-label">
+                    <label for="date-naissance">Date de naissance</label>
+                    <input type="date"name="date-naissance" id="date-naissance">
+                    <div id="date-erreur"></div>
+                </div>
+                <div class="champ-label">
+                    <label for="adresse" class="text-base">Adresse</label>
+                    <input type="text" placeholder="Entrez votre adresse postale" id="adresse">
+                    <div id="adresse-erreur"></div>
+                </div>
+                <div class="champ-label">
+                    <label for="mot-de-passe" class="text-base">Mot de passe</label>
+                    <input type="password" placeholder="Entrez votre mot de passe" id="mot-de-passe">
+                    <div id="mot-de-passe-erreur"></div>
+                </div>
+                <div class="champ-label">
+                    <label for="mot-de-passe" class="text-base">Confirmation du mot de passe</label>
+                    <input type="password" placeholder="Confirmez votre mot de passe" id="confirmation-mot-de-passe">
+                    <div id="confirmation-mot-de-passe-erreur"></div>
+                </div>
+            </div>
+            <button  type="submit" class="TEXT-base-boutton" id="button">Envoyer</button>
+        </div>
+        <script src="/assets/js/app.js"></script>
+</body>
+</html>
