@@ -24,7 +24,6 @@ function prenomLength() {
     const prenomErreur = document.getElementById('prenom-erreur')
     
     if (prenom.length >= 5 && prenom.length <= 15) {
-        console.log("Le prénom est valide.")
         prenomErreur.innerHTML = ''
         return true
     } else {
@@ -65,7 +64,6 @@ function verifDate() {
     const dateErreur = document.getElementById("date-erreur") 
 
     const dateEntree = new Date(date.value)
-    console.log(dateEntree)
 
     const aujourdHui = new Date()
 
@@ -89,7 +87,6 @@ function adresseLength() {
     const adresseErreur = document.getElementById('adresse-erreur')
     
     if (adresse.length >= 50 && adresse.length <= 200) {
-        console.log("Le prénom est valide.")
         adresseErreur.innerHTML = ''
         return true
     } else {
